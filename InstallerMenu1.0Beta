@@ -5,7 +5,7 @@ os.system("figlet BlueSyncXInstaller")
 print "Take Minute..."
 time.sleep(4)
 os.system("python2 TakeRunDontRunThisPythonOrError.py")
-print "Check Update Server.."
+print "Check Update Server..."
 time.sleep(4)
 print "Found!"
 os.system("python2 CheckUpdateDontRunThisPythonOrError.py")
