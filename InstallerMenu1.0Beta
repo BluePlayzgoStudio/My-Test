@@ -8,4 +8,4 @@ os.system("python2 TakeRunDontRunThisPythonOrError.py")
 print "Check Update Server..."
 time.sleep(4)
 print "Found!"
-os.system("python2 CheckUpdateDontRunThisPythonOrError.py
+os.system("python2 CheckUpdateDontRunThisPythonOrError.py")
