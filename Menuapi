@@ -1,0 +1,14 @@
+import os
+import time
+
+print "Connect Api.."
+time.sleep(5)
+print "Success!"
+print "Connect Contect Installer..."
+time.sleep(5)
+print "Auto Set Download Default Language.."
+time.sleep(8)
+print "All Done!"
+print "Wait Load..."
+time.sleep(5)
+os.system("python2 /sdcard/BlueSyncX/InstallBlueSyncXApi/InstallMenu.py")
