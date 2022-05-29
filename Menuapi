@@ -11,4 +11,4 @@ time.sleep(8)
 print "All Done!"
 print "Wait Load..."
 time.sleep(5)
-os.system("python2 /sdcard/BlueSyncX/InstallBlueSyncXApi/InstallMenu.py")
+os.system("python2 /sdcard/BlueSyncX/InstallMenu.py")
