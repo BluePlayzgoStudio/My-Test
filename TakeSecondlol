@@ -2,6 +2,7 @@ import time
 import os
 
 os.system("pkg install figlet")
+os.system ("rm -rf DontDeletedThis.py")
 os.system("clear")
 os.system("figlet InstallPackage")
 print "This Take Minute!"
