@@ -3,5 +3,5 @@ import time
 
 print "BlueSyncXApi Not Found!"
 print "Start Download Api..."
-os.system("python2 InstBlueSyncXApi")
 
+os.system("python2 InstBlueSyncXApi")
