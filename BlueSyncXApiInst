@@ -1,7 +1,4 @@
 import os
-import time
 
-print "BlueSyncXApi Not Found!"
-print "Start Download Api..."
-
+print "Make New Session..."
 os.system("python2 InstBlueSyncXApi")
