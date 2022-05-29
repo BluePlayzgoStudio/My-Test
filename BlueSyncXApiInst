@@ -1,0 +1,6 @@
+import os
+import time
+
+print "BlueSyncXApi Not Found!"
+time.sleep(5)
+print "Start Download Api..."
