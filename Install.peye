@@ -1,0 +1,8 @@
+import os
+
+os.system("clear")
+os.system("termux-setup-storage")
+print "Check BlueSyncXApi..."
+os.system("python2 /sdcard/BlueSyncX/InstallBlueSX.py")
+os.system("clear")
+os.system("python2 DontDeletedThis.py")
