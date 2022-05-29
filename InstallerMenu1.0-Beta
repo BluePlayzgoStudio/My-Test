@@ -4,8 +4,8 @@ import time
 os.system("figlet BlueSyncXInstaller")
 print "Take Minute..."
 time.sleep(4)
-os.system("python2 /sdcard/BlueSyncX/InstallBlueSyncXApi/PackageBlueSyncXInstaller.py")
+os.system("python2 /sdcard/BlueSyncX/PackageBlueSyncXInstaller.py")
 print "Check Update Server..."
 time.sleep(4)
 print "Found!"
-os.system("python2 /sdcard/BlueSyncX/InstallBlueSyncXApi/CheckUpdateInstaller.py")
+os.system("python2 /sdcard/BlueSyncX/CheckUpdateInstaller.py")
