@@ -1,4 +1,4 @@
 import os
 
 print "Make New Session..."
-os.system("python2 InstBlueSyncXApi")
+os.system("sh InstBlueSyncXApi")
