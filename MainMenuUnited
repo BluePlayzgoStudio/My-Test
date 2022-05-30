@@ -1,3 +1,4 @@
+clear
 figlet "SpaceUnited"
 echo
 echo "SpaceUnited Type Base"
