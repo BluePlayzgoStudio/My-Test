@@ -16,34 +16,4 @@ echo
 echo "©Copyright By kageXbenerStudio"
 echo
 echo
-read -p "Type Letter Only : " leter
-
-if [ $leter = CTB ]
-then
-clear
-fi
-
-if [ $leter = CKB ]
-then
-clear
-echo "i"
-fi
-
-if [ $leter = CKU ]
-then
-clear
-echo "e"
-fi
-
-if [ $leter = exit ]
-then
-clear
-figlet "You Exit"
-echo "You Exiting SpaceUnited!"
-exit
-fi
-
-if [ $leter ==   ]
-then
-clear
-fi
+sh .Read
