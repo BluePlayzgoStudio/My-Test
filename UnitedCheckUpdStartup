@@ -1,0 +1,16 @@
+import os
+import time
+
+time.sleep(5)
+print "Success Connect The Server!"
+time.sleep(5)
+os.system("figlet Loading Version")
+print "Warning! You Cant Access Beta Version The ones that have passed from the newest!"
+print "Check Available Version!"
+time.sleep(5)
+print "BlueSyncX 1.0-Beta"
+print
+print "Wait 15 Second For Continue!"
+print
+time.sleep(15)
+print "Error Connect AdvanceUpdate.php!"
