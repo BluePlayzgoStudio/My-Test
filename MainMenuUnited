@@ -1,0 +1,49 @@
+figlet "SpaceUnited"
+echo
+echo "SpaceUnited Type Base"
+echo "Version : 1.0"
+echo
+echo
+echo "CTB. Create SpaceBase"
+echo
+echo "CKB. Check SpaceBase"
+echo
+echo "CKU. Check Update"
+echo
+echo "exit. Exit SpaceUnited"
+echo
+echo
+echo "©Copyright By kageXbenerStudio"
+echo
+echo
+read -p "Type Letter Only : " leter
+
+if [ $leter = CTB ]
+then
+clear
+fi
+
+if [ $leter = CKB ]
+then
+clear
+echo "i"
+fi
+
+if [ $leter = CKU ]
+then
+clear
+echo "e"
+fi
+
+if [ $leter = exit ]
+then
+clear
+figlet "You Exit"
+echo "You Exiting SpaceUnited!"
+exit
+fi
+
+if [ $leter ==   ]
+then
+clear
+fi
