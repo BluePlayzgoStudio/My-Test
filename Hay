@@ -1,0 +1,50 @@
+import os
+import sys
+import time
+import random
+
+def mengetik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+
+        time.sleep(random.random() * 0.6)
+
+def bersih():
+    os.system("clear")
+
+def menu():
+    NamaAwal = input("Your Name : ")
+    if NamaAwal ==NamaAwal:
+       bersih()
+       os.system("figlet SpaceUnited")
+       print('Hi,' + NamaAwal)
+       print('''
+SpaceUnited Base Edition
+
+Version : 2.0-base
+
+Menu
+
+CTB.) Create Base
+
+CKB.) Check Base
+
+CKU.) Check Update SpaceUnited
+
+exit.) exit SpaceUnited
+    ''')
+    testa = input('hey : ')
+    if testa =="1":
+       nama = input("nama lu : ")
+       time.sleep(5.0)
+       print("Hay " + nama)
+    if testa =="exit":
+       os.system("figlet You Exiting SpaceUnited-Base!")
+    else:
+       mengetik('error!')
+       print("You Wrong Type!")
+       time.sleep(5.0)
+       os.system("python ht.py")
+
+menu()
