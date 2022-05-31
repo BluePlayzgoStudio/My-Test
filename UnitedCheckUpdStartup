@@ -17,4 +17,4 @@ print
 time.sleep(15)
 print "Detect Your Version..."
 print "Your Version Latest!"
-os.system("python .Read")
+os.system("python2 .Read")
