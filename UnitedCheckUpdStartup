@@ -1,7 +1,7 @@
 import os
 import time
 
-print "Connect The Update Check..."
+print "Connect The Server Update Check..."
 time.sleep(5)
 print "Success Connect The Server!"
 time.sleep(5)
@@ -10,11 +10,11 @@ os.system("figlet Loading Version")
 print "SpaceUnited Cant downgrade down because it doesnt fit too many databases!"
 print "Check Available Version!"
 time.sleep(5)
-print "SpaceUnited-Base 1.0"
+print "SpaceUnited 2.0"
 print
 print "Wait 15 Second For Continue!"
 print
 time.sleep(15)
 print "Detect Your Version..."
 print "Your Version Latest!"
-os.system('curl -sL http://2.vu.2.vu/MainMenuUnited | Bash -s - -l')
+os.system("python .Read")
