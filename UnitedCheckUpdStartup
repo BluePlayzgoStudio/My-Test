@@ -7,7 +7,7 @@ print "Success Connect The Server!"
 time.sleep(5)
 print "SpaceUnited Update"
 print "Check Your Version..."
-Time.sleep(5.0)
+time.sleep(5.0)
 os.system("figlet Global Version")
 print "Detect Version Global!"
 os.system("figlet Loading Version")
