@@ -6,15 +6,16 @@ time.sleep(5)
 print "Success Connect The Server!"
 time.sleep(5)
 print "SpaceUnited Update"
+print "Check Your Version..."
+Time.sleep(5.0)
+os.system("figlet Global Version")
+print "Detect Version Global!"
 os.system("figlet Loading Version")
 print "SpaceUnited Cant downgrade down because it doesnt fit too many databases!"
 print "Check Available Version!"
 time.sleep(5)
-print "SpaceUnited 2.0"
+print "This Version Newed!"
 print
 print "Wait 15 Second For Continue!"
 print
 time.sleep(15)
-print "Detect Your Version..."
-print "Your Version Latest!"
-os.system("python2 .Read")
