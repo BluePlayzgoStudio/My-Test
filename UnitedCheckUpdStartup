@@ -2,9 +2,9 @@ import os
 import time
 
 print "Connect The Server Update Check..."
-time.sleep(5)
+time.sleep(5.0)
 print "Success Connect The Server!"
-time.sleep(5)
+time.sleep(5.0
 print "SpaceUnited Update"
 print "Check Your Version..."
 time.sleep(5.0)
@@ -13,9 +13,9 @@ print "Detect Version Global!"
 os.system("figlet Loading Version")
 print "SpaceUnited Cant downgrade down because it doesnt fit too many databases!"
 print "Check Available Version!"
-time.sleep(5)
+time.sleep(5.0)
 print "This Version Newed!"
 print
 print "Wait 15 Second For Continue!"
 print
-time.sleep(15)
+time.sleep(15.0)
